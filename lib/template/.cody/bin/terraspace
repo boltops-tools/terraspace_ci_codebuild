@@ -1,0 +1,5 @@
+#!/bin/bash
+export PATH="$HOME/.tfenv/bin:$PATH"
+type terraform
+export PATH="/usr/local/bin:$PATH"
+exec terraspace "$@"

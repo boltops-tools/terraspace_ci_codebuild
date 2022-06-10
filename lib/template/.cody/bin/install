@@ -1,0 +1,11 @@
+#!/bin/bash
+# install terraform
+git clone https://github.com/tfutils/tfenv.git ~/.tfenv
+export PATH="$HOME/.tfenv/bin:$PATH"
+tfenv install latest
+tfenv use latest
+terraform --version
+# install terraspace
+bundle
+bundle exec terraspace new shim
+export PATH="/usr/local/bin:$PATH"
