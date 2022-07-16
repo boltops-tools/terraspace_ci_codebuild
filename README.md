@@ -8,7 +8,7 @@ Add gem to your Terraspace project
 
 Gemfile
 
-    gem terraspace_ci_codebuild
+    gem "terraspace_ci_codebuild"
 
 Then to install run
 
